@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Supseven\ThemeBaseAddonSolr\Command\ReindexCommand:
+    public: true
+    tags:
+      - name: console.command
+        command: 'theme:reindex'
+        description: 'Re-index the given queue on the given page'

@@ -1,0 +1,18 @@
+@import 'EXT:solr/Configuration/TypoScript/Examples/IndexQueueNews/setup.typoscript'
+@import 'EXT:solr/Configuration/TypoScript/Examples/IndexQueueNewsContentElements/setup.typoscript'
+
+plugin.tx_solr {
+    index.queue {
+        news = 1
+        news {
+            additionalWhereClause = pid = {$themeBase.addonSolr.indexQueue.news.additionalWhereClause.storagePage}
+            fields {
+                url {
+                    default {
+                        typolink.parameter = {$themeBase.addonSolr.indexQueue.news.fields.url.default.detailPage}
+                    }
+                }
+            }
+        }
+    }
+}

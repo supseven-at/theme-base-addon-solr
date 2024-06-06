@@ -1,0 +1,34 @@
+{
+    "name": "supseven/theme-base-addon-solr",
+    "license": "GPL-2.0-or-later",
+    "description": "Sitepackage addon of supseven.at for project with apache solr",
+    "type": "typo3-cms-extension",
+    "autoload": {
+        "psr-4": {
+            "Supseven\\ThemeBaseAddonSolr\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "supseven development team",
+            "email": "support@supseven.at",
+            "homepage": "https://www.supseven.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^12.4",
+        "apache-solr-for-typo3/solr": "^12 || dev-release-12.0.x",
+        "supseven/theme-base": "*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Supseven\\ThemeBaseAddonSolr\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "theme_base_addon_solr"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" original="" datatype="plaintext" date="2024-04-18T11:40:47+02:00">
+		<body>
+			<trans-unit id="solr.facet.header" resname="solr.facet.header">
+				<source>Type</source>
+				<target>Typ</target>
+			</trans-unit>
+			<trans-unit id="solr.facet.news.label" resname="solr.facet.news.label">
+				<source>News</source>
+				<target>News</target>
+			</trans-unit>
+			<trans-unit id="solr.facet.pages.label" resname="solr.facet.pages.label">
+				<source>Pages</source>
+				<target>Seiten</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

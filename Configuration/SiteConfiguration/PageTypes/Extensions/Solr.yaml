@@ -1,0 +1,4 @@
+routeEnhancers:
+  PageTypes:
+    map:
+      '.suggest': 7384

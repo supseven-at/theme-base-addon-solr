@@ -1,0 +1,14 @@
+# This file represents all site settings which are used/processed in ext:theme
+themeBase:
+  addonSolr:
+    search:
+      targetPage:
+    indexQueue:
+      news:
+        additionalWhereClause:
+          storagePage:
+        fields:
+          url:
+            default:
+              detailPage:
+
