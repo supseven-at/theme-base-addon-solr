@@ -1,7 +1,7 @@
 {
     "name": "supseven/theme-base-addon-solr",
     "license": "GPL-2.0-or-later",
-    "description": "Sitepackage addon of supseven.at for project with apache solr",
+    "description": "Sitepackage addon for TYPO3 projects with apache solr search",
     "type": "typo3-cms-extension",
     "autoload": {
         "psr-4": {
