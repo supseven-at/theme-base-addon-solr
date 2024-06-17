@@ -2,6 +2,7 @@
 themeBase:
   addonSolr:
     search:
+      # page uid of the general search page in this TYPO3 site
       targetPage:
     indexQueue:
       pages:
