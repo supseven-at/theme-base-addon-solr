@@ -48,6 +48,10 @@ tasks.
 
         Introduction to the package `supseven/theme-base-addon-solr`, general information.
 
+    ..  card:: :ref:`What does it do? <what-does-it-do>`
+
+        Overview of the features and defaults.
+
     ..  card:: :ref:`Installation <installation>`
 
         Installation process.
@@ -55,10 +59,6 @@ tasks.
     ..  card:: :ref:`Configuration <configuration>`
 
         Configuration of this package in conjunction with `supseven/theme-base`.
-
-    ..  card:: :ref:`Commands <commands>`
-
-        Solr related command reference. How to use commands, shipped by this package.
 
 ..  Table of Contents:
 

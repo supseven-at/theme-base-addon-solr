@@ -36,18 +36,6 @@ Dependency graph
                                     │           Final integration        │
                                     │                                    │
                                     │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
-                                    │                                    │
                                     └────────────────────────────────────┘
 
 ..  _what-does-it-do:
@@ -55,7 +43,7 @@ Dependency graph
 What does it do? (technically)
 ==============================
 
-. rst-class:: bignums-xxl
+.. rst-class:: bignums-xxl
 
 1. Adds a reindex command for Development context
 
