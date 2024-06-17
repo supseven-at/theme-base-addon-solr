@@ -8,5 +8,5 @@ services:
     public: true
     tags:
       - name: console.command
-        command: 'theme:reindex'
+        command: 'theme-base:solr-reindex'
         description: 'Re-index the given queue on the given page'
