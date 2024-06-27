@@ -8,5 +8,5 @@ themeBase:
       pages:
         indexer:
           authorization:
-            username: '%env(SOLR_BASICAUTH_USERNAME)'
-            password: '%env(SOLR_BASICAUTH_PASSWORD)'
+            username: '%env(SOLR_BASICAUTH_USERNAME)%'
+            password: '%env(SOLR_BASICAUTH_PASSWORD)%'
