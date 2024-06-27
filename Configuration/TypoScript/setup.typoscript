@@ -91,7 +91,7 @@ plugin.tx_solr {
             # allowed pagetypes (doktype) when indexing records from table "pages" (1 = standard)
             allowedPageTypes = 1
 
-            additionalWhereClause = no_search = 0
+            additionalWhereClause = no_search = 0 AND doktype = 1
         }
     }
 }
@@ -111,4 +111,3 @@ page.includeJSFooterlibs {
 page.includeCSS {
     solr-suggest >
 }
-
